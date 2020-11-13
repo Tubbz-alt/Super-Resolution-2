@@ -18,26 +18,26 @@ Comparing the performance of above-mentioned techniques on benchmarks like Set5,
 # Data sets
 Training: 
 
-T-91 image dataset – A dataset of 91 images
-DIV-2k dataset - The image quality is of 2K resolution and is composed of 800 images for training while 100 images each for testing and validation 
+T-91 image dataset – A dataset of 91 images  
+DIV-2k dataset - The image quality is of 2K resolution and is composed of 800 images for training while 100 images each for testing and validation  
 
 Evaluation: 
 
-               Benchmark datasets to evaluate the performance of different models.
+Benchmark datasets to evaluate the performance of different models.
 
-Set5 - Five test images of a baby, bird, butterfly, head, and a woman. 
-Set14 - Consists of more categories as compared to set5 i.e 14 categories.
-BDS100 - The dataset has100 images ranging from natural images to object-specific such as plants, people, food etc. 
+Set5 - Five test images of a baby, bird, butterfly, head, and a woman.  
+Set14 - Consists of more categories as compared to set5 i.e 14 categories.  
+BDS100 - The dataset has100 images ranging from natural images to object-specific such as plants, people, food etc.  
 
 
 
 # Models
 SRCNN:  A 3-layer 9-1-5 deep convolution neural network with filter width n1= 64 and n2 = 32
 
-SRGAN/SRResNet: SRGAN combines the concept of ResNet and GAN to train the        model, in SRResNet we use a no GAN network consisting only of the residual blocks and use MSE as loss.
+SRGAN/SRResNet: SRGAN combines the concept of ResNet and GAN to train the model, in SRResNet we use a no GAN network consisting only of the residual blocks and use MSE as loss.
 
-ESRGAN: Two modifications made in the above mentioned SRGAN model.
-          1) Removing all the batch normalization layers
+ESRGAN: Two modifications made in the above mentioned SRGAN model.  
+          1) Removing all the batch normalization layers  
           2)Replacing the basic block with Residual in Residual dense block(RRDB)
            
 
