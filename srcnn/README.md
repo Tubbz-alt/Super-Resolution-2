@@ -26,7 +26,7 @@ python test.py --weights-file "BLAH_BLAH/srcnn_x3.pth" \
 
 PSNR was calculated on the Y channel.
 
-### Set5
+## Results
 
 | Eval. Mat | Scale | SRCNN | Dataset |
 |-----------|-------|-------|--------------|
