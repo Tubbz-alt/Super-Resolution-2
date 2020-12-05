@@ -56,4 +56,4 @@ python main.py --is_perceptual_oriented False --epoch=10
 
 ## SAMPLE COLAB NOTEBOOK
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uVQNAP0TVm9XA_bB9xn0qCWnYPZLte5Y]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uVQNAP0TVm9XA_bB9xn0qCWnYPZLte5Y)
