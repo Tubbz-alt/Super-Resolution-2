@@ -24,7 +24,7 @@ It currently only supports .bmp images, will try to add other formats in future
 
 ##### The model runs on pre-trained weights, taken from the following repo : https://github.com/MarkPrecursor/SRCNN-keras
 
-## The web app is heavily isnpired by : https://medium.com/towards-artificial-intelligence/building-a-super-resolution-image-web-app-57e26886cb45
+##### The web app is heavily isnpired by : https://medium.com/towards-artificial-intelligence/building-a-super-resolution-image-web-app-57e26886cb45
 
 # FUTURE TODOS
 
