@@ -1,0 +1,69 @@
+<!doctype html>
+<title>Upload new File</title>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body{
+      background-color: aliceblue;
+    }
+    h1{
+      color:darkslategrey
+    }
+    h3{
+      color:dimgray
+    }
+    input{
+      padding: 100 rem;
+      color: black
+    }
+    
+    .column {
+      float: left;
+      width: 50%;
+      padding: 5px;
+    }
+
+    
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    @media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+
+</head>
+<body>
+   <div align="center">
+   <h1>Single Image Super Resolution</h1>
+     
+    <form method=post enctype=multipart/form-data>
+      <h3>Upload Image File</h3>
+      <input type="file" id="myFile" name="image">
+      <input type="submit" value=Upload>
+    </form>
+      {% if image_name and psnr %}
+      <div class="row" align="center">
+        <div class="column">
+         <h1>Original Image</h1>
+         <img src="/static/input/{{image_name}}" height=456px width=456px>
+        </div>
+          <h1>Output Image</h1>
+          <img src="/static/output/{{image_name}}" height=456px width=456px>
+      </div>
+    </div>
+    <br>
+      <p align="center">PSNR : {{psnr}}</p>
+      <p align="center">MSE : {{mse}}</p>
+      <p align="center">SSIM : {{ssim}}</p>
+      {%endif%}
+    </div>
+</body>
