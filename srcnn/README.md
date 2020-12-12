@@ -32,4 +32,5 @@ PSNR was calculated on the Y channel.
 |-----------|-------|-------|--------------|
 | PSNR | 2 | 36.99 | Set5 |
 | PSNR | 2 | 32.34 | Set14 |
+| PSNR | 4 | 32.80 | Set5 |
 
